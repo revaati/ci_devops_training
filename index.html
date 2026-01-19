@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ My Sparkly Page ✨</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+            background-size: 400% 400%;
+                   h1 {
+            margin-top: 80px;
+            font-size: 3.2rem;
+            text-shadow: 0px 0px 10px #fff, 0px 0px 20px #ff6dfb;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #fff; }
+            to { text-shadow: 0 0 20px #ffccff, 0 0 30px #ff99ff; }
+        }
+
+        p {
+            font-size: 1.4rem;
+            margin-top: 20px;
+            opacity: 0.9;
+        }
+
+        .sparkles {
+            font-size: 2rem;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            border-radius: 20px;
+            padding: 20px 30px;
+            margin: 40px auto;
+            width: 60%;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="sparkles">✨✨✨</div>
+    <h1>Welcome to My Sparkly Page ✨</h1>
+    <p>Where everything glows, sparkles, and looks ✨ fabulous ✨</p>
+
+    <div class="card">
+        <p>This is your magical, animated HTML starter page.<br>
+        Add more glitter, unicorns, buttons, cards — whatever you want! 💖</p>
+    </div>
+
+    <div class="sparkles">✨✨✨</div>
+
+</body>
+</html>
